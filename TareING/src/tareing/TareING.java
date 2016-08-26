@@ -35,12 +35,6 @@ public class TareING {
         
     }
     
-   
-    public void opciones (){
-        System.out.println("Ingrese nota de trabajos: ");
-        opciones();
-        //Integer.parseInt(entrada.nextLine());
-    }
     
     public static void main(String[] args) {
         TareING Colitas = new TareING();
