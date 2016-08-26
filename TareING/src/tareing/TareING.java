@@ -11,12 +11,18 @@ package tareing;
  * @author kevin
  */
 public class TareING {
+    
+    int trabajos=0, aporte=0, examen=0;
+    int notaPUno = 0;
+    int notaPDos = 0;
+    int promedioUno = 0, PromedioDos = 0;
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola Mundo Conectado");
+        
+        
     }
     
 }
