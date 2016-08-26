@@ -20,15 +20,31 @@ public class TareING {
     int notaPUno = 0;
     int notaPDos = 0;
     int promedioUno = 0, PromedioDos = 0;
+    
+    public void MenuPrincipal() {
+        System.out.print( "\n\t_________________________________________"
+                + "\n\t**************Menú Principal*************        "
+                + "\n\t 1.-  Ingresar nota                                    "
+                + "\n\t 2.-  Obtener suma                       "
+                + "\n\t 3.-  Imprimir Notas              "
+                + "\n\t 4.-  Obtener Resultados              "
+                + "\n\t 5.-  Salir                                            "
+                + "\n\t_________________________________________");
+        System.out.print("\n\t Ingrese la opción a ejecutar: ");      
+        int ej = Integer.parseInt(entrada.nextLine());       
+        
+    }
+    
    
     public void opciones (){
         System.out.println("Ingrese nota de trabajos: ");
-        Integer.parseInt(entrada.nextLine());
+        opciones();
+        //Integer.parseInt(entrada.nextLine());
     }
     
     public static void main(String[] args) {
-        TareING opciones = new TareING();
-        opciones.opciones();
+        TareING Colitas = new TareING();
+        Colitas.MenuPrincipal();
     }
     
 }
